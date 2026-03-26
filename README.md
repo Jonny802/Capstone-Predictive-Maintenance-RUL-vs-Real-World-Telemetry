@@ -13,7 +13,7 @@ The purpose of the project is not just to build models, but to evaluate how much
 The analysis is split into two notebooks:
 
 - **Notebook 1:** NASA C-MAPSS FD001 turbofan engine dataset  
-- **Notebook 2:** Hospital equipment telemetry dataset  
+- **Notebook 2:** Hospital diagnostic imaging equipment telemetry dataset  
 
 Together, they show the difference between a well-defined predictive maintenance problem and a real operational setting where the problem is far less clear.
 
@@ -42,7 +42,7 @@ The goal is to understand not just model performance, but the conditions require
 - Suitable for supervised learning  
 
 ### Hospital Telemetry (Real-World)
-- Electrical and temperature sensor data  
+- Electrical and temperature sensor data of diagnostic imaging machines   
 - Variable data quality over time  
 - No labeled failures  
 - No clear degradation trajectory  
@@ -85,9 +85,9 @@ The goal is to understand not just model performance, but the conditions require
 
 ## Conclusion
 
-The project highlights the gap between benchmark and real-world predictive maintenance.
+The project highlights the gap between benchmark and real-world predictive maintenance scenarios.
 
-In controlled datasets like FD001, machine learning can effectively model degradation and predict outcomes. In real-world telemetry, the absence of labels and clear degradation patterns shifts the task from prediction to interpretation.
+In controlled datasets like FD001, machine learning can effectively model degradation and predict outcomes. In real-world telemetry, the absence of failure events and clear degradation patterns shifts the task from prediction to interpretation.
 
 The key takeaway is that machine learning is less limited by model choice, and more by the structure and quality of the data available.
 
