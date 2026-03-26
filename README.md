@@ -68,7 +68,7 @@ The goal is to understand not just model performance, but the conditions require
 ## Key Findings
 
 ### Turbofan
-- ~12 sensors identified as informative for RUL prediction  
+- 12 sensors identified as informative for RUL prediction  
 - Models achieved ~29 MAE across full lifecycle  
 - Best model (SVR) reached ~20.5 MAE on test data  
 - Accuracy improves closer to failure as degradation signals become clearer  
